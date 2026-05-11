@@ -1,0 +1,12 @@
+{
+  "dt_abs_max": 0.0016666666666669272,
+  "dt_abs_mean": 0.0010999999999999966,
+  "dt_abs_p95": 0.0016666666666669272,
+  "matched_count": 100,
+  "matched_ratio": 1.0,
+  "max_consecutive_missing": 0,
+  "missing_by_reason": {},
+  "missing_count": 0,
+  "missing_ratio": 0.0,
+  "total_frames": 100
+}

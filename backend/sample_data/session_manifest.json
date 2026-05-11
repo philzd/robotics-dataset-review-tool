@@ -1,0 +1,21 @@
+{
+  "session_id": "demo_session",
+  "created_at": "2026-03-17T03:12:36.470023+00:00",
+  "robotics_data_engine_version": "0.1.0",
+  "inputs": {
+    "video": {
+      "path": "sessions/demo_session/raw/dummy_video.mp4",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "sensor": {
+      "path": "sessions/demo_session/raw/dummy_imu.csv",
+      "sha256": "efbce1adafe12420340482f716d2eee3b5787f9a75124098faf55e7b20dee319"
+    }
+  },
+  "extraction": {
+    "video_timestamp_policy": "frame_idx/fps",
+    "fps": 30.0,
+    "frame_count": 100
+  },
+  "warnings": []
+}

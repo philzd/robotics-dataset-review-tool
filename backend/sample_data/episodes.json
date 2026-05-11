@@ -1,0 +1,20 @@
+{
+  "episode_count": 1,
+  "episodes": [
+    {
+      "end_frame_idx": 99,
+      "end_t": 3.3,
+      "episode_id": 0,
+      "length": 100,
+      "start_frame_idx": 0,
+      "start_t": 0.0
+    }
+  ],
+  "summary": {
+    "episode_count": 1,
+    "max_length": 100,
+    "mean_length": 100.0,
+    "min_length": 100,
+    "total_frames_in_episodes": 100
+  }
+}

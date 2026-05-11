@@ -1,0 +1,8 @@
+{
+  "episode_count": 1,
+  "fragmentation_score": 0.0,
+  "largest_episode_ratio": 1.0,
+  "max_episode_length": 100,
+  "mean_episode_length": 100.0,
+  "total_frames_in_episodes": 100
+}
