@@ -12,7 +12,7 @@ This project builds a lightweight interface on top of structured validation-awar
 
 ## TL;DR
 
-This system enables dataset inspection and labeling for robotics data.
+This system enables inspection, filtering, and annotation of robotics dataset artifacts.
 
 ```text
 Dataset artifacts
@@ -45,7 +45,7 @@ Full dataset review interface:
 
 ## Overview
 
-This project demonstrates how structured dataset outputs can be exposed to a human reviewer for:
+This project demonstrates how structured dataset artifacts can be exposed to a human reviewer for:
 
 - inspection
 - filtering
@@ -255,19 +255,25 @@ THIS PROJECT
 Together, they model:
 
 ```text
-raw data → structured dataset → human review → curated dataset
+raw data
+↓
+dataset artifacts
+↓
+human review
+↓
+curated dataset
 ```
 
 ---
 
 ## Future Extensions
 
-- Frame-level annotation UI
 - Multi-session dataset browser
+- Dataset quality dashboards
 - Database-backed label storage
 - Authentication / multi-user support
+- Frame-level annotation UI
 - Integration with training pipelines
-- Dataset quality dashboards
 
 ---
 
@@ -288,7 +294,7 @@ It does not include:
 
 ## Usage Notice
 
-This repository is shared for portfolio and evaluation purposes.
+This repository is shared for portfolio, educational, and demonstration purposes.
 
 Please contact the author for permission before reusing or redistributing the code.
 
